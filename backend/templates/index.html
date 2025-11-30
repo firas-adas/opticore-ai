@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OptiCore AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>OptiCore AI</h1>
+    <p>Smart Business Optimization Platform</p>
+
+    <textarea id="businessInput" placeholder="Describe your business process or challenge..."></textarea>
+    <br>
+    <button id="analyzeBtn">Analyze</button>
+
+    <div class="summary-box">
+    <h3>Executive Summary</h3>
+    <p id="summaryText">--</p>
+</div>
+
+<div class="priority-box">
+    Priority Level:
+    <span id="priorityLevel">--</span>
+</div>
+
+<div class="score-container">
+        <h3>Business Health Score</h3>
+
+        <div class="gauge">
+            <svg width="180" height="180">
+                <circle cx="90" cy="90" r="80" stroke="#1f2937" stroke-width="12" fill="none"/>
+                <circle id="scoreCircle"
+                        cx="90"
+                        cy="90"
+                        r="80"
+                        stroke="#22c55e"
+                        stroke-width="12"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-dasharray="502"
+                        stroke-dashoffset="502"/>
+            </svg>
+
+            <div class="score-text" id="scoreValue">--</div>
+        </div>
+    </div>
+
+    <!-- WEAKNESSES (hidden until real data exists) -->
+    <div class="weakness-box" id="weaknessBox" style="display:none;">
+        <h2>📉 Key Business Weaknesses</h2>
+        <ul id="weaknessList"></ul>
+    </div>
+
+    <div id="result" class="result-box"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

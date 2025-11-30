@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    white-space: pre-line;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+.score-card {
+    max-width: 260px;
+    margin: 20px auto 10px auto;
+    padding: 16px;
+    background: #0f172a;
+    border-radius: 16px;
+    text-align: center;
+    color: #e5e7eb;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    border: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.score-label {
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9ca3af;
+}
+
+.score-value {
+    margin-top: 8px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.score-container {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.gauge {
+    position: relative;
+    display: inline-block;
+}
+
+.score-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.weakness-box {
+    background: #111827;
+    padding: 24px;
+    margin-top: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.weakness-box h2 {
+    color: #f97316;
+    margin-bottom: 12px;
+}
+
+#weaknessList li {
+    margin: 8px 0;
+    color: #fca5a5;
+    font-size: 16px;
+}
