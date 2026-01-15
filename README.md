@@ -12,10 +12,10 @@ I built this project to explore how AI can turn vague business problems into str
 **Output:** An executive summary, priority level, health score, and structured recommendations
 
 ### Initial Analysis View
-![OptiCore AI Input and Summary](screenshots/opticore-input-summary.png)
+![OptiCore AI Input and Summary](screenshots/opticore-input.png)
 
 ### Generated Insights & Recommendations
-![OptiCore AI Recommendations](screenshots/opticore-recommendations.png)
+![OptiCore AI Recommendations](screenshots/opticore-results.png)
 
 ---
 
