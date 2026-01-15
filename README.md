@@ -15,7 +15,7 @@ I built this project to explore how AI can turn vague business problems into str
 ![OptiCore AI Input and Summary](screenshots/opticore-input-summary.png)
 
 ### Generated Insights & Recommendations
-![OptiCore AI Input and Summary](screenshots/opticore-recommendations.png)
+![OptiCore AI Recommendations](screenshots/opticore-recommendations.png)
 
 ---
 
