@@ -1,0 +1,16 @@
+
+OptiCore AI is a full-stack web application that helps businesses turn unstructured input into clear, actionable optimization reports.
+
+- Accepts free-form business descriptions
+- Uses AI to analyze priorities and problem areas
+- Generates structured recommendations and summaries
+- Displays results through a clean web interface
+
+- Backend: Python, Flask
+- AI: OpenAI API
+- Frontend: HTML/CSS, JavaScript
+- Database: SQL (planned / optional)
+
+- User accounts
+- Saved reports
+- Usage analytics
