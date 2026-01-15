@@ -8,10 +8,5 @@ I built this project to explore how AI can turn vague business problems into str
 - Generates structured recommendations and summaries
 - Displays results through a clean web interface
 
-- Backend: Python, Flask
-- AI: OpenAI API
-- Frontend: HTML/CSS, JavaScript
-- Database: SQL (planned / optional)
-
 Tech Stack: Python, Flask, OpenAI API, HTML/CSS, JavaScript
 Status: Actively improving and iterating
