@@ -3,6 +3,17 @@ OptiCore AI is a full-stack web application that helps businesses turn unstructu
 
 I built this project to explore how AI can turn vague business problems into structured insights using a clean full-stack architecture.
 
+## Project Structure
+
+```text
+backend/
+  app.py          # Flask application entry point
+  ai_engine.py    # AI logic for analyzing business input
+  config.py       # Configuration and environment setup
+  templates/      # HTML templates
+  static/         # CSS and frontend assets
+  requirements.txt
+
 - Accepts free-form business descriptions
 - Uses AI to analyze priorities and problem areas
 - Generates structured recommendations and summaries
